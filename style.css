@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;/* cómo se calculan las dimensiones de un elemento (ancho y alto) usar con border box, para que calcule de afura para adentro */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 0px solid red;
+}
+
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.tarjeta {
+    display: flex;
+    flex-flow: column wrap;/* combina flex-direction y flex-wrap */
+    width: 35%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 100px gray;
+}
+
+.barra {
+    background-color: aqua;
+    height: 12vh;
+    border-radius: 10px 10px 0 0;
+}
+
+.info {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 15px;
+    padding: 0px 40px;
+    align-items: start;
+    position: relative;
+    top: -70px;
+}
+
+img {
+    width: 220px;
+    height: 220px;
+    border-radius: 100px;
+    border: 5px solid white;
+}
+
+button {
+    width: 12%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    top: -35px;
+    left: 40px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+
